@@ -1,0 +1,8 @@
+[Inputs]
+a
+[Outputs]
+y
+[BiDir]
+[ATTRIBUTES]
+VeriModel notgate
+

@@ -1,0 +1,37 @@
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 661 / 8
+-------------------------------------------------------------------------
+Delay:               14.266ns (Levels of Logic = 12)
+  Source:            a<1> (PAD)
+  Destination:       mul<6> (PAD)
+
+  Data Path: a<1> to mul<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   1.106   0.849  a_1_IBUF (a_1_IBUF)
+     LUT4:I0->O            3   0.612   0.520  Madd_old_Acc_3_addsub0000_cy<1>11 (Madd_old_Acc_3_addsub0000_cy<1>)
+     LUT3:I1->O            1   0.612   0.000  _old_Acc_3<2>2 (_old_Acc_3<2>2)
+     MUXF5:I0->O           3   0.278   0.603  _old_Acc_3<2>_f5 (_old_Acc_3<2>)
+     LUT2:I0->O            1   0.612   0.426  Madd_old_Acc_5_addsub0000_lut<1>1 (Madd_old_Acc_5_addsub0000_lut<1>)
+     LUT4:I1->O            1   0.612   0.000  _old_Acc_5<2>66_G (N54)
+     MUXF5:I1->O           2   0.278   0.383  _old_Acc_5<2>66 (_old_Acc_5<2>)
+     LUT4:I3->O            3   0.612   0.481  mul<5>50_SW0 (N37)
+     LUT3:I2->O            2   0.612   0.532  Madd_old_Acc_7_addsub0000_cy<2>1 (Madd_old_Acc_7_addsub0000_cy<2>)
+     LUT3:I0->O            1   0.612   0.387  mul<6>_SW2 (N29)
+     LUT4:I2->O            1   0.612   0.357  mul<6> (mul_6_OBUF)
+     OBUF:I->O                 3.169          mul_6_OBUF (mul<6>)
+    ----------------------------------------
+    Total                     14.266ns (9.727ns logic, 4.539ns route)
+                                       (68.2% logic, 31.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 3.60 secs

@@ -1,0 +1,33 @@
+Design Statistics
+# IOs                              : 17
+
+Cell Usage :
+# BELS                             : 38
+#      GND                         : 1
+#      LUT2                        : 3
+#      LUT3                        : 7
+#      LUT4                        : 20
+#      MUXF5                       : 7
+# IO Buffers                       : 17
+#      IBUF                        : 9
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500evq100-5 
+
+ Number of Slices:                       17  out of   4656     0%  
+ Number of 4 input LUTs:                 30  out of   9312     0%  
+ Number of IOs:                          17
+ Number of bonded IOBs:                  17  out of     66    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+

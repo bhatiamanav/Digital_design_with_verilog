@@ -1,0 +1,33 @@
+Design Statistics
+# IOs                              : 40
+
+Cell Usage :
+# BELS                             : 27
+#      GND                         : 1
+#      LUT2                        : 2
+#      LUT3                        : 3
+#      LUT4                        : 19
+#      MUXF5                       : 2
+# IO Buffers                       : 40
+#      IBUF                        : 8
+#      OBUF                        : 32
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1200efg320-5 
+
+ Number of Slices:                       14  out of   8672     0%  
+ Number of 4 input LUTs:                 24  out of  17344     0%  
+ Number of IOs:                          40
+ Number of bonded IOBs:                  40  out of    250    16%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+

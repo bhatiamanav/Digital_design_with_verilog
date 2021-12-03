@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+orgate instance_name (
+    .a(a), 
+    .b(b), 
+    .y(y)
+    );
+
+

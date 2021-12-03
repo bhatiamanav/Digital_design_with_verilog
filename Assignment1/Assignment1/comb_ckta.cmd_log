@@ -1,0 +1,3 @@
+vhdtdtfi -lib work /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/comb_ckta.v -lang verilog -prj Assignment1 -o comb_ckta.spl -module comb_ckta -template /opt/Xilinx/13.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 comb_ckta.spl /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/comb_ckta.sym 
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/comb_ckta.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/comb_ckta.syr" 

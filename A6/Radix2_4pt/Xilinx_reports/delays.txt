@@ -1,0 +1,32 @@
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 200 / 24
+-------------------------------------------------------------------------
+Delay:               8.301ns (Levels of Logic = 5)
+  Source:            i0<1> (PAD)
+  Destination:       g<3> (PAD)
+
+  Data Path: i0<1> to g<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.106   0.651  i0_1_IBUF (i0_1_IBUF)
+     LUT4:I0->O            8   0.612   0.795  f1/Madd_c_add0000_xor<1>11 (A<1>)
+     LUT4:I0->O            1   0.612   0.387  Msub_g_xor<3>1_SW0 (N0)
+     LUT3:I2->O            1   0.612   0.357  Msub_g_xor<3>1 (g_3_OBUF)
+     OBUF:I->O                 3.169          g_3_OBUF (g<3>)
+    ----------------------------------------
+    Total                      8.301ns (6.111ns logic, 2.190ns route)
+                                       (73.6% logic, 26.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 3.86 secs
+ 
+--> 

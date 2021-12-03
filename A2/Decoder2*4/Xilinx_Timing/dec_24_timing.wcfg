@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/susiejojo/Sems/Sem3/VLSID/Assignment2/dec_24_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="dec_24_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/dec_24_test/d0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">d0</obj_property>
+      <obj_property name="ObjectShortName">d0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dec_24_test/d1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">d1</obj_property>
+      <obj_property name="ObjectShortName">d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dec_24_test/d2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">d2</obj_property>
+      <obj_property name="ObjectShortName">d2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dec_24_test/d3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">d3</obj_property>
+      <obj_property name="ObjectShortName">d3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dec_24_test/a0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">a0</obj_property>
+      <obj_property name="ObjectShortName">a0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dec_24_test/a1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">a1</obj_property>
+      <obj_property name="ObjectShortName">a1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dec_24_test/in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in</obj_property>
+      <obj_property name="ObjectShortName">in</obj_property>
+   </wvobject>
+</wave_config>

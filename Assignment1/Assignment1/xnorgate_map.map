@@ -1,0 +1,44 @@
+Release 13.4 Map O.87xd (lin64)
+Xilinx Map Application Log File for Design 'xnorgate'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc7a8-csg324-3 -w -logic_opt off -ol high
+-t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power
+off -o xnorgate_map.ncd xnorgate.ngd xnorgate.pcf 
+Target Device  : xc7a8
+Target Package : csg324
+Target Speed   : -3
+Mapper Version : artix7 -- $Revision: 1.55 $
+Mapped Date    : Wed Sep  4 02:11:05 2019
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:54 - 'xc7a8' is a Beta WebPack part.
+INFO:Security:54b - Beta part 'xc7a8' is not eligible for a WebPack license.
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is root, on host unknown.
+ERROR:Security:11 - No 'xc7a8' feature version 2012.01 was available for 'ISE',
+----------------------------------------------------------------------
+No such feature exists.
+Feature:       xc7a8
+License path: 
+/home/susiejojo/.Xilinx/Xilinx.lic:/opt/Xilinx/13.4/ISE_DS/ISE//data/*.lic:/opt/
+Xilinx/13.4/ISE_DS/ISE//coregen/core_licenses/Xilinx.lic:/opt/Xilinx/13.4/ISE_DS
+/ISE//coregen/core_licenses/XilinxFree.lic:
+FLEXnet Licensing error:-5,357
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.acresso.com".
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:Map:258 - A problem was encountered attempting to get the license for this
+   architecture.
+
+
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   0

@@ -1,0 +1,20 @@
+Release 13.4 - netgen O.87xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis
+-ofmt verilog -sim demux_18.ngc demux_18_synthesis.v  
+
+Reading design 'demux_18.ngc' ...
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing Verilog netlist file
+'/home/susiejojo/Sems/Sem3/VLSID/Assignment2/netgen/synthesis/demux_18_synthesis
+.v' ...
+INFO:NetListWriters:633 - The generated Verilog netlist contains Xilinx UNISIM
+   simulation primitives and has to be used with UNISIM simulation library for
+   correct compilation and simulation. 
+Number of warnings: 0
+Number of info messages: 1
+Total memory usage is 321828 kilobytes

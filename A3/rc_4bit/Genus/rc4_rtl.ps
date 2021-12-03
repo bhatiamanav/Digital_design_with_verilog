@@ -1,0 +1,380 @@
+%!PS-Adobe-3.0
+%%Creator: Conformal-CSV 1.0
+%%Date: Thu Sep 26 19:00:22 2019
+
+%%BoundingBox: -54 270 667 522
+%%Orientation: Landscape
+%%Pages: 1
+%%EndComments
+%%BeginSetup
+/scaleHelvetica 
+{ 
+  /Helvetica findfont exch scalefont setfont
+} def
+
+/TX 
+{ 
+  /fontsize exch def
+  /txt exch def
+  /ct1y exch def 
+  /ct1x exch def 
+  fontsize scaleHelvetica
+  ct1x ct1y moveto txt show
+} def
+
+/RTX 
+{ 
+  /fontsize exch def
+  /txt exch def
+  /ct1y exch def 
+  /ct1x exch def 
+  fontsize scaleHelvetica
+  ct1x ct1y moveto txt
+  90 rotate show
+} def
+
+/CNT 
+{ 
+  /cntsize exch def
+  /ct1y exch def
+  /ct1x exch def
+  newpath ct1x ct1y moveto
+  cntsize 0 rlineto 0 cntsize rlineto 0 cntsize sub 0 rlineto
+  closepath fill stroke
+} def 
+
+/LW 
+{ 
+  setlinewidth 
+} def 
+
+/LP 
+{
+  2 setlinecap 
+  /lwidth exch def
+ lwidth setlinewidth 
+  /pt1y exch def /pt1x exch def
+  newpath pt1x pt1y moveto
+  /pt2y exch def /pt2x exch def
+  pt2x pt2y lineto stroke
+} def 
+
+/OV 
+{
+  /xs exch def /endangle exch def /startangle exch def
+  /radius exch def /cy exch def /cx exch def
+  newpath
+  xs 1 scale
+  cx cy radius startangle endangle arc
+  stroke
+} def 
+
+/AP 
+{
+  /endangle exch def /startangle exch def
+  /radius exch def /cy exch def /cx exch def
+  newpath
+  cx cy radius startangle endangle arc
+  stroke
+} def 
+
+/ellipsedict 8 dict def
+ellipsedict /mtrx matrix put
+/ellipse 
+{ ellipsedict begin
+/endangle exch def
+/startangle exch def
+/yrad exch def
+/xrad exch def
+/y exch def
+/x exch def
+/savematrix mtrx currentmatrix def
+x y translate
+xrad yrad scale
+0 0 1 startangle endangle arc
+savematrix setmatrix
+end
+} def
+
+/BP 
+{
+  /bbxury exch def /bbxurx exch def
+  /bbxlly exch def /bbxllx exch def
+  newpath bbxllx bbxlly moveto
+  bbxurx bbxlly bbxurx bbxury bbxllx bbxury 3 {lineto} repeat
+  closepath stroke
+} def 
+
+/FBP 
+{
+  /filltype exch def
+  /bbxury exch def /bbxurx exch def
+  /bbxlly exch def /bbxllx exch def
+  newpath bbxllx bbxlly moveto
+  bbxurx bbxlly bbxurx bbxury bbxllx bbxury 3 {lineto} repeat
+  closepath filltype setgray fill stroke
+} def 
+
+/FTRI 
+{
+  /y3 exch def /x3 exch def
+  /y2 exch def /x2 exch def
+  /y1 exch def /x1 exch def
+  newpath x1 y1 moveto
+  x2 y2 x3 y3 2 {lineto} repeat
+  closepath fill stroke
+} def 
+
+/CLIP 
+{
+  /bbxury exch def /bbxurx exch def
+  /bbxlly exch def /bbxllx exch def
+  newpath bbxllx bbxlly moveto
+  bbxurx bbxlly bbxurx bbxury bbxllx bbxury 3 {lineto} repeat
+  closepath clip newpath
+} def 
+
+%%EndSetup
+%%Page: 1 1
+
+306.0 396.0 translate
+90 rotate
+0.1925 0.1925 scale
+-1348 -599 translate
+-450 -750 3290 2050 BP
+-221 450 -221 430 1.299 LP
+-221 430 -178 430 1.299 LP
+-178 430 -160 440 1.299 LP
+-160 440 -178 450 1.299 LP
+-178 450 -221 450 1.299 LP
+-160 440 -120 440 1.299 LP
+-256 430 (cin) 32 TX
+-221 670 -221 650 1.299 LP
+-221 650 -178 650 1.299 LP
+-178 650 -160 660 1.299 LP
+-160 660 -178 670 1.299 LP
+-178 670 -221 670 1.299 LP
+-160 660 -120 660 1.299 LP
+-286 650 (a[3:0]) 32 TX
+-221 1010 -221 990 1.299 LP
+-221 990 -178 990 1.299 LP
+-178 990 -160 1000 1.299 LP
+-160 1000 -178 1010 1.299 LP
+-178 1010 -221 1010 1.299 LP
+-160 1000 -120 1000 1.299 LP
+-286 990 (b[3:0]) 32 TX
+2999 450 2999 430 1.299 LP
+3042 450 2999 450 1.299 LP
+3061 440 3042 450 1.299 LP
+3042 430 3061 440 1.299 LP
+2999 430 3042 430 1.299 LP
+2999 440 2960 440 1.299 LP
+3066 430 (cout) 32 TX
+2999 550 2999 530 1.299 LP
+3042 550 2999 550 1.299 LP
+3061 540 3042 550 1.299 LP
+3042 530 3061 540 1.299 LP
+2999 530 3042 530 1.299 LP
+2999 540 2960 540 1.299 LP
+3066 530 (s[3:0]) 32 TX
+-40 660 -40 660 2.597 LP
+-40 660 0 660 2.597 LP
+-120 660 -40 660 2.597 LP
+-82 662 ([0:3]) 32 TX
+-40 1000 -40 1000 2.597 LP
+-40 1000 0 1000 2.597 LP
+-120 1000 -40 1000 2.597 LP
+-82 1002 ([0:3]) 32 TX
+-40 440 -40 440 1.299 LP
+-40 440 160 440 1.299 LP
+-120 440 -40 440 1.299 LP
+160 440 160 440 1.299 LP
+160 440 320 440 1.299 LP
+160 520 160 940 1.299 LP
+160 520 320 520 1.299 LP
+120 940 160 940 1.299 LP
+140 600 140 600 1.299 LP
+120 600 140 600 1.299 LP
+140 600 320 600 1.299 LP
+800 520 800 980 1.299 LP
+800 520 920 520 1.299 LP
+160 980 800 980 1.299 LP
+160 980 160 980 1.299 LP
+120 980 160 980 1.299 LP
+880 600 880 700 1.299 LP
+880 600 920 600 1.299 LP
+280 700 880 700 1.299 LP
+280 640 280 700 1.299 LP
+120 640 280 640 1.299 LP
+1480 600 1480 880 1.299 LP
+1480 600 1520 600 1.299 LP
+240 880 1480 880 1.299 LP
+240 680 240 880 1.299 LP
+120 680 240 680 1.299 LP
+1400 520 1400 1020 1.299 LP
+1400 520 1520 520 1.299 LP
+160 1020 1400 1020 1.299 LP
+160 1020 160 1020 1.299 LP
+120 1020 160 1020 1.299 LP
+2000 520 2000 1060 1.299 LP
+2000 520 2120 520 1.299 LP
+160 1060 2000 1060 1.299 LP
+160 1060 160 1060 1.299 LP
+120 1060 160 1060 1.299 LP
+2080 600 2080 940 1.299 LP
+2080 600 2120 600 1.299 LP
+200 940 2080 940 1.299 LP
+200 720 200 940 1.299 LP
+120 720 200 720 1.299 LP
+780 440 780 440 1.299 LP
+760 440 780 440 1.299 LP
+780 440 920 440 1.299 LP
+2600 480 2600 820 1.299 LP
+2600 480 2720 480 1.299 LP
+840 820 2600 820 1.299 LP
+840 600 840 820 1.299 LP
+760 600 840 600 1.299 LP
+1380 440 1380 440 1.299 LP
+1360 440 1380 440 1.299 LP
+1380 440 1520 440 1.299 LP
+2640 520 2640 760 1.299 LP
+2640 520 2720 520 1.299 LP
+1440 760 2640 760 1.299 LP
+1440 600 1440 760 1.299 LP
+1360 600 1440 600 1.299 LP
+1980 440 1980 440 1.299 LP
+1960 440 1980 440 1.299 LP
+1980 440 2120 440 1.299 LP
+2680 560 2680 700 1.299 LP
+2680 560 2720 560 1.299 LP
+2040 700 2680 700 1.299 LP
+2040 600 2040 700 1.299 LP
+1960 600 2040 600 1.299 LP
+2580 600 2580 600 1.299 LP
+2560 600 2580 600 1.299 LP
+2580 600 2720 600 1.299 LP
+2880 440 2880 440 1.299 LP
+2600 440 2880 440 1.299 LP
+2880 440 2960 440 1.299 LP
+2600 440 2600 440 1.299 LP
+2560 440 2600 440 1.299 LP
+2880 540 2880 540 2.597 LP
+2880 540 2960 540 2.597 LP
+2840 540 2880 540 2.597 LP
+2882 542 ([0:3]) 32 TX
+40 640 40 680 1.299 LP
+40 680 80 720 1.299 LP
+40 667 80 680 1.299 LP
+40 653 80 640 1.299 LP
+40 640 80 600 1.299 LP
+0 660 40 660 1.299 LP
+80 720 120 720 1.299 LP
+110 710 21 CNT
+80 680 120 680 1.299 LP
+110 670 21 CNT
+80 640 120 640 1.299 LP
+110 630 21 CNT
+80 600 120 600 1.299 LP
+110 590 21 CNT
+40 980 40 1020 1.299 LP
+40 1020 80 1060 1.299 LP
+40 1007 80 1020 1.299 LP
+40 993 80 980 1.299 LP
+40 980 80 940 1.299 LP
+0 1000 40 1000 1.299 LP
+80 1060 120 1060 1.299 LP
+110 1050 21 CNT
+80 1020 120 1020 1.299 LP
+110 1010 21 CNT
+80 980 120 980 1.299 LP
+110 970 21 CNT
+80 940 120 940 1.299 LP
+110 930 21 CNT
+2800 520 2800 560 1.299 LP
+2760 600 2800 560 1.299 LP
+2760 560 2800 547 1.299 LP
+2760 520 2800 533 1.299 LP
+2760 480 2800 520 1.299 LP
+2720 600 2760 600 1.299 LP
+2710 590 21 CNT
+2720 560 2760 560 1.299 LP
+2710 550 21 CNT
+2720 520 2760 520 1.299 LP
+2710 510 21 CNT
+2720 480 2760 480 1.299 LP
+2710 470 21 CNT
+2800 540 2840 540 1.299 LP
+2160 400 2520 640 BP
+2325 474 (FA4) 32 TX
+2160 590 2180 610 BP
+2160 600 2120 600 1.299 LP
+2150 602 (a) 32 TX
+2160 510 2180 530 BP
+2160 520 2120 520 1.299 LP
+2150 522 (b) 32 TX
+2160 430 2180 450 BP
+2160 440 2120 440 1.299 LP
+2134 442 (cin) 32 TX
+2500 590 2520 610 BP
+2520 600 2560 600 1.299 LP
+2522 602 (s) 32 TX
+2500 430 2520 450 BP
+2520 440 2560 440 1.299 LP
+2522 442 (cout) 32 TX
+1560 400 1920 640 BP
+1725 474 (FA3) 32 TX
+1560 590 1580 610 BP
+1560 600 1520 600 1.299 LP
+1550 602 (a) 32 TX
+1560 510 1580 530 BP
+1560 520 1520 520 1.299 LP
+1550 522 (b) 32 TX
+1560 430 1580 450 BP
+1560 440 1520 440 1.299 LP
+1534 442 (cin) 32 TX
+1900 590 1920 610 BP
+1920 600 1960 600 1.299 LP
+1922 602 (s) 32 TX
+1900 430 1920 450 BP
+1920 440 1960 440 1.299 LP
+1922 442 (cout) 32 TX
+960 400 1320 640 BP
+1125 474 (FA2) 32 TX
+960 590 980 610 BP
+960 600 920 600 1.299 LP
+950 602 (a) 32 TX
+960 510 980 530 BP
+960 520 920 520 1.299 LP
+950 522 (b) 32 TX
+960 430 980 450 BP
+960 440 920 440 1.299 LP
+934 442 (cin) 32 TX
+1300 590 1320 610 BP
+1320 600 1360 600 1.299 LP
+1322 602 (s) 32 TX
+1300 430 1320 450 BP
+1320 440 1360 440 1.299 LP
+1322 442 (cout) 32 TX
+360 400 720 640 BP
+525 474 (FA1) 32 TX
+360 590 380 610 BP
+360 600 320 600 1.299 LP
+350 602 (a) 32 TX
+360 510 380 530 BP
+360 520 320 520 1.299 LP
+350 522 (b) 32 TX
+360 430 380 450 BP
+360 440 320 440 1.299 LP
+334 442 (cin) 32 TX
+700 590 720 610 BP
+720 600 760 600 1.299 LP
+722 602 (s) 32 TX
+700 430 720 450 BP
+720 440 760 440 1.299 LP
+722 442 (cout) 32 TX
+-445 -861 (Cadence Schematics, Copyright 1997-2006) 47 TX
+1550 -738 (Module:rcarry_4bit,   Page:1 of 1,   Date:Thu Sep 26 19:00:23 2019
+) 47 TX
+-445 -738 () 47 TX
+showpage
+%%EOF

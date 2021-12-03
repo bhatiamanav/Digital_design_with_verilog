@@ -1,0 +1,12 @@
+Depth  Name             #Inst  Area (um^2)
+------------------------------------------
+0      demux_18         14     63.5796    
+1      demux3           6      27.2484    
+1      demux2           6      27.2484    
+1      demux1           2      9.0828     
+2      demux3/demux2    2      9.0828     
+2      demux2/demux2    2      9.0828     
+2      demux3/demux3    2      9.0828     
+2      demux3/demux1    2      9.0828     
+2      demux2/demux3    2      9.0828     
+2      demux2/demux1    2      9.0828     

@@ -1,0 +1,16 @@
+net "i0[0]" loc = "R17";
+net "i0[1]" loc = "N17";
+net "i1[0]" loc = "L13";
+net "i1[1]" loc = "L14";
+net "i2[0]" loc = "K17";
+net "i2[1]" loc = "K18";
+net "i3[0]" loc = "H18";
+net "i3[1]" loc = "G18";
+net "e[0]" loc = "R4";
+net "ei[0]" loc = "F4";
+net "f[0]" loc = "P15";
+net "fi[0]" loc = "E17";
+net "g[0]" loc = "K14";
+net "gi[0]" loc = "K15";
+net "h[0]" loc = "J15";
+net "hi[0]" loc = "J14";

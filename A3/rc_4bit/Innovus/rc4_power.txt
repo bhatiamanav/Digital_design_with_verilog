@@ -1,0 +1,273 @@
+AAE DB initialization (MEM=1299.98 CPU=0:00:00.0 REAL=0:00:00.0) 
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: rcarry_4bit
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: No SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+Extraction called for design 'rcarry_4bit' of instances=4 and nets=19 using extraction engine 'postRoute' at effort level 'low' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PostRoute (effortLevel low) RC Extraction called for design rcarry_4bit.
+RC Extraction called in multi-corner(1) mode.
+**WARN: (IMPEXT-6197):	The Cap table file is not specified. This will result in lower parasitic accuracy when using preRoute extraction or postRoute extraction with effort level 'low'. It is recommended to generate the Cap table file using the 'generateCapTbl' command and specify it before extraction using 'create_rc_corner/update_rc_corner -cap_table'.
+Type 'man IMPEXT-6197' for more detail.
+**WARN: (IMPEXT-3032):	Because the cap table file was not provided, it will be created internally with the following process info:
+* Layer Id             : 1 - M1
+      Thickness        : 0.3
+      Min Width        : 0.12
+      Layer Dielectric : 4.1
+* Layer Id             : 2 - M2
+      Thickness        : 0.36
+      Min Width        : 0.14
+      Layer Dielectric : 4.1
+* Layer Id             : 3 - M3
+      Thickness        : 0.36
+      Min Width        : 0.14
+      Layer Dielectric : 4.1
+* Layer Id             : 4 - M4
+      Thickness        : 0.36
+      Min Width        : 0.14
+      Layer Dielectric : 4.1
+* Layer Id             : 5 - M5
+      Thickness        : 0.36
+      Min Width        : 0.14
+      Layer Dielectric : 4.1
+* Layer Id             : 6 - M6
+      Thickness        : 0.36
+      Min Width        : 0.14
+      Layer Dielectric : 4.1
+* Layer Id             : 7 - M7
+      Thickness        : 0.36
+      Min Width        : 0.14
+      Layer Dielectric : 4.1
+* Layer Id             : 8 - M8
+      Thickness        : 1
+      Min Width        : 0.44
+      Layer Dielectric : 4.1
+* Layer Id             : 9 - M9
+      Thickness        : 1
+      Min Width        : 0.44
+      Layer Dielectric : 4.1
+extractDetailRC Option : -outfile /tmp/innovus_temp_28059_client04_root_tAsHZt/rcarry_4bit_28059_Z4DnDf.rcdb.d  -basic
+RC Mode: PostRoute -effortLevel low [Basic CapTable, LEF Resistances]
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Coupling Cap. Scaling Factor : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 1.00000
+Initializing multi-corner resistance tables ...
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1300.0M)
+Extracted 11.3636% (CPU Time= 0:00:00.0  MEM= 1320.0M)
+Extracted 21.5909% (CPU Time= 0:00:00.0  MEM= 1320.0M)
+Extracted 31.8182% (CPU Time= 0:00:00.0  MEM= 1340.0M)
+Extracted 42.0455% (CPU Time= 0:00:00.0  MEM= 1340.0M)
+Extracted 52.2727% (CPU Time= 0:00:00.0  MEM= 1340.0M)
+Extracted 61.3636% (CPU Time= 0:00:00.0  MEM= 1340.0M)
+Extracted 71.5909% (CPU Time= 0:00:00.0  MEM= 1340.0M)
+Extracted 81.8182% (CPU Time= 0:00:00.0  MEM= 1340.0M)
+Extracted 92.0455% (CPU Time= 0:00:00.0  MEM= 1340.0M)
+Extracted 100% (CPU Time= 0:00:00.0  MEM= 1340.0M)
+Number of Extracted Resistors     : 144
+Number of Extracted Ground Cap.   : 157
+Number of Extracted Coupling Cap. : 184
+Filtering XCap in 'relativeOnly' mode using values relative_c_threshold=0.03 and total_c_threshold=5fF.
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1300.0M)
+PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:00.0  Real Time: 0:00:00.0  MEM: 1299.980M)
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Initializing multi-corner resistance tables ...
+Total number of fetched objects 17
+AAE_INFO: Total number of nets for which stage creation was skipped for all views 0
+AAE_INFO-618: Total number of nets in the design is 19,  78.9 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1295.66 CPU=0:00:00.0 REAL=0:00:00.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1295.7M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1295.7M)
+Starting SI iteration 2
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Glitch Analysis: View Worst -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View Worst -- Total Number of Nets Analyzed = 17. 
+Total number of fetched objects 17
+AAE_INFO: Total number of nets for which stage creation was skipped for all views 0
+AAE_INFO-618: Total number of nets in the design is 19,  0.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1295.64 CPU=0:00:00.0 REAL=0:00:00.0)
+Load RC corner of view Worst
+Set Default Frequency 100MHz.
+
+Begin Power Analysis
+
+    0.00V	    VSS
+    0.90V	    VDD
+
+Begin Processing Timing Library for Power Calculation
+
+Begin Processing Timing Library for Power Calculation
+
+
+
+Begin Processing Power Net/Grid for Power Calculation
+
+Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total)=948.11MB/948.11MB)
+
+Begin Processing Timing Window Data for Power Calculation
+
+Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total)=948.11MB/948.11MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=948.11MB/948.11MB)
+
+Begin Processing Signal Activity
+
+
+Starting Levelizing
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT)
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT): 25%
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT): 50%
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT): 75%
+
+Finished Levelizing
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT)
+
+Starting Activity Propagation
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT)
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT): 10%
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT): 20%
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT): 30%
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT): 40%
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT): 50%
+
+Finished Activity Propagation
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT)
+Ended Processing Signal Activity: (cpu=0:00:00, real=0:00:00, mem(process/total)=948.11MB/948.11MB)
+
+Begin Power Computation
+
+      ----------------------------------------------------------
+      # of cell(s) missing both power/leakage table: 0
+      # of cell(s) missing power table: 0
+      # of cell(s) missing leakage table: 0
+      # of MSMV cell(s) missing power_level: 0
+      ----------------------------------------------------------
+
+
+
+Starting Calculating power
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT)
+ ... Calculating switching power
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT): 10%
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT): 20%
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT): 30%
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT): 40%
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT): 50%
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT): 60%
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT): 70%
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT): 80%
+ ... Calculating internal and leakage power
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT): 90%
+
+Finished Calculating power
+2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT)
+Ended Power Computation: (cpu=0:00:00, real=0:00:00, mem(process/total)=948.11MB/948.11MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=948.11MB/948.11MB)
+
+Ended Power Analysis: (cpu=0:00:00, real=0:00:00, mem(process/total)=948.11MB/948.11MB)
+
+Begin Static Power Report Generation
+*----------------------------------------------------------------------------------------
+*	Innovus 16.21-s078_1 (64bit) 01/20/2017 14:00 (Linux 2.6.18-194.el5)
+*	
+*
+* 	Date & Time:	2019-Sep-28 16:55:39 (2019-Sep-28 11:25:39 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*	Design: rcarry_4bit
+*
+*	Liberty Libraries used:
+*	        Worst: lib/90/slow.lib
+*
+*	Power Domain used:
+*		Rail:        VDD 	Voltage:        0.9
+*
+*       Power View : Worst
+*
+*       User-Defined Activity : N.A.
+*
+*       Activity File: N.A.
+*
+*       Hierarchical Global Activity: N.A.
+*
+*       Global Activity: N.A.
+*
+*       Sequential Element Activity: 0.200000
+*
+*       Primary Input Activity: 0.200000
+*
+*       Default icg ratio: N.A.
+*
+*       Global Comb ClockGate Ratio: N.A.
+*
+*	Power Units = 1mW
+*
+*	Time Units = 1e-09 secs
+*
+*       report_power
+*
+-----------------------------------------------------------------------------------------
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        0.00152354 	   69.9554%
+Total Switching Power:       0.00031643 	   14.5292%
+Total Leakage Power:         0.00033790 	   15.5154%
+Total Power:                 0.00217787
+-----------------------------------------------------------------------------------------
+
+
+Group                           Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+Sequential                             0           0           0           0           0
+Macro                                  0           0           0           0           0
+IO                                     0           0           0           0           0
+Combinational                   0.001524   0.0003164   0.0003379    0.002178         100
+Clock (Combinational)                  0           0           0           0           0
+Clock (Sequential)                     0           0           0           0           0
+-----------------------------------------------------------------------------------------
+Total                           0.001524   0.0003164   0.0003379    0.002178         100
+-----------------------------------------------------------------------------------------
+
+
+Rail                  Voltage   Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+VDD                       0.9   0.001524   0.0003164   0.0003379    0.002178         100
+ 
+ 
+-----------------------------------------------------------------------------------------
+*	Power Distribution Summary: 
+* 		Highest Average Power:                    FA3/g2 (ADDFX1): 	 0.0006183
+* 		Highest Leakage Power:                    FA4/g2 (ADDFX1): 	 8.448e-05
+* 		Total Cap: 	2.43562e-14 F
+* 		Total instances in design:     4
+* 		Total instances in design with no power:     0
+*                Total instances in design with no activty:     0
+
+* 		Total Fillers and Decap:     0
+-----------------------------------------------------------------------------------------
+ 
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:00,
+mem(process/total)=948.11MB/948.11MB)
+

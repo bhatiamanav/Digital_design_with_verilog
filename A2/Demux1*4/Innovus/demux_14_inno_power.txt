@@ -1,0 +1,209 @@
+
+Power Net Detected:
+    Voltage	    Name
+    0.00V	    VSS
+    0.90V	    VDD
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: demux_14
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Total number of fetched objects 9
+AAE_INFO: Total number of nets for which stage creation was skipped for all views 0
+AAE_INFO-618: Total number of nets in the design is 11,  45.5 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1069.33 CPU=0:00:00.0 REAL=0:00:00.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1069.3M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1069.3M)
+Starting SI iteration 2
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Glitch Analysis: View Worst -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View Worst -- Total Number of Nets Analyzed = 9. 
+Total number of fetched objects 9
+AAE_INFO: Total number of nets for which stage creation was skipped for all views 0
+AAE_INFO-618: Total number of nets in the design is 11,  0.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1069.3 CPU=0:00:00.0 REAL=0:00:00.0)
+Load RC corner of view Worst
+Set Default Frequency 100MHz.
+
+Begin Power Analysis
+
+    0.00V	    VSS
+    0.90V	    VDD
+
+Begin Processing Timing Library for Power Calculation
+
+Begin Processing Timing Library for Power Calculation
+
+
+
+Begin Processing Power Net/Grid for Power Calculation
+
+Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total)=810.00MB/810.00MB)
+
+Begin Processing Timing Window Data for Power Calculation
+
+Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total)=810.07MB/810.07MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=810.12MB/810.12MB)
+
+Begin Processing Signal Activity
+
+
+Starting Levelizing
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT)
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT): 17%
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT): 33%
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT): 50%
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT): 67%
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT): 83%
+
+Finished Levelizing
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT)
+
+Starting Activity Propagation
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT)
+** INFO:  (VOLTUS_POWR-1356): No default input activity has been set. Defaulting to 0.2.
+Use 'set_default_switching_activity -input_activity' command to change the default activity value.
+
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT): 10%
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT): 20%
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT): 30%
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT): 40%
+
+Finished Activity Propagation
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT)
+Ended Processing Signal Activity: (cpu=0:00:00, real=0:00:00, mem(process/total)=810.33MB/810.33MB)
+
+Begin Power Computation
+
+      ----------------------------------------------------------
+      # of cell(s) missing both power/leakage table: 0
+      # of cell(s) missing power table: 0
+      # of cell(s) missing leakage table: 0
+      # of MSMV cell(s) missing power_level: 0
+      ----------------------------------------------------------
+
+
+
+Starting Calculating power
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT)
+ ... Calculating switching power
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT): 10%
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT): 20%
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT): 30%
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT): 40%
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT): 50%
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT): 60%
+ ... Calculating internal and leakage power
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT): 70%
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT): 80%
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT): 90%
+
+Finished Calculating power
+2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT)
+Ended Power Computation: (cpu=0:00:00, real=0:00:00, mem(process/total)=810.68MB/810.68MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=810.71MB/810.71MB)
+
+Ended Power Analysis: (cpu=0:00:00, real=0:00:00, mem(process/total)=810.72MB/810.72MB)
+
+Begin Static Power Report Generation
+*----------------------------------------------------------------------------------------
+*	Innovus 16.21-s078_1 (64bit) 01/20/2017 14:00 (Linux 2.6.18-194.el5)
+*	
+*
+* 	Date & Time:	2019-Sep-10 00:49:48 (2019-Sep-09 19:19:48 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*	Design: demux_14
+*
+*	Liberty Libraries used:
+*	        Worst: lib/90/slow.lib
+*
+*	Power Domain used:
+*		Rail:        VDD 	Voltage:        0.9
+*
+*       Power View : Worst
+*
+*       User-Defined Activity : N.A.
+*
+*       Activity File: N.A.
+*
+*       Hierarchical Global Activity: N.A.
+*
+*       Global Activity: N.A.
+*
+*       Sequential Element Activity: 0.200000
+*
+*       Primary Input Activity: 0.200000
+*
+*       Default icg ratio: N.A.
+*
+*       Global Comb ClockGate Ratio: N.A.
+*
+*	Power Units = 1mW
+*
+*	Time Units = 1e-09 secs
+*
+*       report_power
+*
+-----------------------------------------------------------------------------------------
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        0.00037386 	   61.8842%
+Total Switching Power:       0.00010390 	   17.1978%
+Total Leakage Power:         0.00012637 	   20.9180%
+Total Power:                 0.00060413
+-----------------------------------------------------------------------------------------
+
+
+Group                           Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+Sequential                             0           0           0           0           0
+Macro                                  0           0           0           0           0
+IO                                     0           0           0           0           0
+Combinational                  0.0003739   0.0001039   0.0001264   0.0006041         100
+Clock (Combinational)                  0           0           0           0           0
+Clock (Sequential)                     0           0           0           0           0
+-----------------------------------------------------------------------------------------
+Total                          0.0003739   0.0001039   0.0001264   0.0006041         100
+-----------------------------------------------------------------------------------------
+
+
+Rail                  Voltage   Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+VDD                       0.9  0.0003739   0.0001039   0.0001264   0.0006041         100
+ 
+ 
+-----------------------------------------------------------------------------------------
+*	Power Distribution Summary: 
+* 		Highest Average Power:                demux1/g18 (AND2X1): 	 0.0001438
+* 		Highest Leakage Power:                demux1/g18 (AND2X1): 	 2.717e-05
+* 		Total Cap: 	1.42853e-14 F
+* 		Total instances in design:     6
+* 		Total instances in design with no power:     0
+*                Total instances in design with no activty:     0
+
+* 		Total Fillers and Decap:     0
+-----------------------------------------------------------------------------------------
+ 
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:00,
+mem(process/total)=810.93MB/810.93MB)
+

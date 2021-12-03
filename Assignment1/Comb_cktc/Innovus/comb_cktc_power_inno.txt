@@ -1,0 +1,180 @@
+
+Power Net Detected:
+    Voltage	    Name
+    0.00V	    VSS
+    0.90V	    VDD
+Load RC corner of view Worst
+Set Default Frequency 100MHz.
+
+Begin Power Analysis
+
+    0.00V	    VSS
+    0.90V	    VDD
+
+Begin Processing Timing Library for Power Calculation
+
+Begin Processing Timing Library for Power Calculation
+
+
+
+Begin Processing Power Net/Grid for Power Calculation
+
+Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total)=901.95MB/901.95MB)
+
+Begin Processing Timing Window Data for Power Calculation
+
+Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total)=902.02MB/902.02MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=902.07MB/902.07MB)
+
+Begin Processing Signal Activity
+
+
+Starting Levelizing
+2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT)
+2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT): 33%
+2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT): 67%
+
+Finished Levelizing
+2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT)
+
+Starting Activity Propagation
+2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT)
+** INFO:  (VOLTUS_POWR-1356): No default input activity has been set. Defaulting to 0.2.
+Use 'set_default_switching_activity -input_activity' command to change the default activity value.
+
+2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT): 10%
+2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT): 20%
+2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT): 30%
+2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT): 40%
+2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT): 50%
+
+Finished Activity Propagation
+2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT)
+Ended Processing Signal Activity: (cpu=0:00:00, real=0:00:00, mem(process/total)=902.29MB/902.29MB)
+
+Begin Power Computation
+
+      ----------------------------------------------------------
+      # of cell(s) missing both power/leakage table: 0
+      # of cell(s) missing power table: 0
+      # of cell(s) missing leakage table: 0
+      # of MSMV cell(s) missing power_level: 0
+      ----------------------------------------------------------
+
+
+
+Starting Calculating power
+2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT)
+ ... Calculating switching power
+2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT): 10%
+2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT): 20%
+2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT): 30%
+2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT): 40%
+2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT): 50%
+2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT): 60%
+2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT): 70%
+ ... Calculating internal and leakage power
+2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT): 80%
+2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT): 90%
+
+Finished Calculating power
+2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT)
+Ended Power Computation: (cpu=0:00:00, real=0:00:00, mem(process/total)=902.62MB/902.62MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=902.65MB/902.65MB)
+
+Ended Power Analysis: (cpu=0:00:00, real=0:00:00, mem(process/total)=902.66MB/902.66MB)
+
+Begin Static Power Report Generation
+*----------------------------------------------------------------------------------------
+*	Innovus 16.21-s078_1 (64bit) 01/20/2017 14:00 (Linux 2.6.18-194.el5)
+*	
+*
+* 	Date & Time:	2019-Sep-04 22:22:46 (2019-Sep-04 16:52:46 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*	Design: comb_cktc
+*
+*	Liberty Libraries used:
+*	        Worst: lib/90/slow.lib
+*
+*	Power Domain used:
+*		Rail:        VDD 	Voltage:        0.9
+*
+*       Power View : Worst
+*
+*       User-Defined Activity : N.A.
+*
+*       Activity File: N.A.
+*
+*       Hierarchical Global Activity: N.A.
+*
+*       Global Activity: N.A.
+*
+*       Sequential Element Activity: 0.200000
+*
+*       Primary Input Activity: 0.200000
+*
+*       Default icg ratio: N.A.
+*
+*       Global Comb ClockGate Ratio: N.A.
+*
+*	Power Units = 1mW
+*
+*	Time Units = 1e-09 secs
+*
+*       report_power
+*
+-----------------------------------------------------------------------------------------
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        0.00019586 	   67.4943%
+Total Switching Power:       0.00004635 	   15.9726%
+Total Leakage Power:         0.00004798 	   16.5332%
+Total Power:                 0.00029019
+-----------------------------------------------------------------------------------------
+
+
+Group                           Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+Sequential                             0           0           0           0           0
+Macro                                  0           0           0           0           0
+IO                                     0           0           0           0           0
+Combinational                  0.0001959   4.635e-05   4.798e-05   0.0002902         100
+Clock (Combinational)                  0           0           0           0           0
+Clock (Sequential)                     0           0           0           0           0
+-----------------------------------------------------------------------------------------
+Total                          0.0001959   4.635e-05   4.798e-05   0.0002902         100
+-----------------------------------------------------------------------------------------
+
+
+Rail                  Voltage   Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+VDD                       0.9  0.0001959   4.635e-05   4.798e-05   0.0002902         100
+ 
+ 
+-----------------------------------------------------------------------------------------
+*	Power Distribution Summary: 
+* 		Highest Average Power:                       g34 (AND2X1): 	 0.0001258
+* 		Highest Leakage Power:                       g34 (AND2X1): 	 2.717e-05
+* 		Total Cap: 	5.39257e-15 F
+* 		Total instances in design:     3
+* 		Total instances in design with no power:     0
+*                Total instances in design with no activty:     0
+
+* 		Total Fillers and Decap:     0
+-----------------------------------------------------------------------------------------
+ 
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:00,
+mem(process/total)=902.88MB/902.88MB)
+

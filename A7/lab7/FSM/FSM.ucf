@@ -1,0 +1,7 @@
+NET "clk" PERIOD = 2ms HIGH 50%;
+//NET "s<1>" CLOCK_DEDICATED_ROUTE = FALSE;
+net "clk" loc="B8";
+net "I" loc= "R17";
+net "rst" loc="L13";
+net "O" loc="J14";
+net "valid" loc="J15";

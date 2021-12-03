@@ -1,0 +1,26 @@
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/mux_81.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/mux_81.syr" 
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/mux_81.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/mux_81.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a8-csg324-3 mux_81.ngc mux_81.ngd  
+map -intstyle ise -p xc7a8-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mux_81_map.ncd mux_81.ngd mux_81.pcf 
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/mux_81.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/mux_81.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 mux_81.ngc mux_81.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mux_81_map.ncd mux_81.ngd mux_81.pcf 
+par -w -intstyle ise -ol high -mt off mux_81_map.ncd mux_81.ncd mux_81.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mux_81.twx mux_81.ncd -o mux_81.twr mux_81.pcf 
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/mux_81.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/mux_81.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 mux_81.ngc mux_81.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mux_81_map.ncd mux_81.ngd mux_81.pcf 
+par -w -intstyle ise -ol high -mt off mux_81_map.ncd mux_81.ncd mux_81.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mux_81.twx mux_81.ncd -o mux_81.twr mux_81.pcf 
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/mux_81.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/mux_81.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux_8_ucf.ucf -p xc3s500e-fg320-5 mux_81.ngc mux_81.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o mux_81_map.ncd mux_81.ngd mux_81.pcf 
+par -w -intstyle ise -ol high -t 1 mux_81_map.ncd mux_81.ncd mux_81.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mux_81.twx mux_81.ncd -o mux_81.twr mux_81.pcf -ucf mux_8_ucf.ucf 
+bitgen -intstyle ise -f mux_81.ut mux_81.ncd 
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/mux_81.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/mux_81.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux_8_ucf.ucf -p xc3s500e-fg320-5 mux_81.ngc mux_81.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o mux_81_map.ncd mux_81.ngd mux_81.pcf 
+par -w -intstyle ise -ol high -t 1 mux_81_map.ncd mux_81.ncd mux_81.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mux_81.twx mux_81.ncd -o mux_81.twr mux_81.pcf -ucf mux_8_ucf.ucf 
+bitgen -intstyle ise -f mux_81.ut mux_81.ncd 

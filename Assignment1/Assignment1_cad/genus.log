@@ -1,0 +1,24 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2016 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 16.21-s018_1, built Fri Feb 10 2017
+Options: -files rc_script.tcl 
+Date:    Fri Aug 23 01:00:34 2019
+Host:    client02 (x86_64 w/Linux 2.6.32-696.el6.x86_64) (4cores*4cpus*Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz 6144KB) (7939168KB)
+OS:      Red Hat Enterprise Linux Server release 6.9 (Santiago)
+
+Checking out license: Genus_Synthesis
+
+Loading tool scripts...
+Finished loading tool scripts (19 seconds elapsed).
+
+Sourcing rc_script.tcl...
+Error   : The tool is running in common ui mode. [TUI-509] [::unknown]
+        : Command 'set_attr' is a legacy ui command.
+        : Use set_db/get_db instead or do set_db common_ui false at start of the run.
+
+Encountered problems processing file: rc_script.tcl
+WARNING: This version of the tool is 924 days old.
+Normal exit.

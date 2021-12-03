@@ -1,0 +1,285 @@
+
+Power Net Detected:
+    Voltage	    Name
+    0.00V	    VSS
+    0.90V	    VDD
+AAE DB initialization (MEM=1003.35 CPU=0:00:00.1 REAL=0:00:00.0) 
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: serial_add
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: No SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+Extraction called for design 'serial_add' of instances=49 and nets=63 using extraction engine 'postRoute' at effort level 'low' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PostRoute (effortLevel low) RC Extraction called for design serial_add.
+RC Extraction called in multi-corner(1) mode.
+**WARN: (IMPEXT-6197):	The Cap table file is not specified. This will result in lower parasitic accuracy when using preRoute extraction or postRoute extraction with effort level 'low'. It is recommended to generate the Cap table file using the 'generateCapTbl' command and specify it before extraction using 'create_rc_corner/update_rc_corner -cap_table'.
+Type 'man IMPEXT-6197' for more detail.
+**WARN: (IMPEXT-3032):	Because the cap table file was not provided, it will be created internally with the following process info:
+* Layer Id             : 1 - M1
+      Thickness        : 0.3
+      Min Width        : 0.12
+      Layer Dielectric : 4.1
+* Layer Id             : 2 - M2
+      Thickness        : 0.36
+      Min Width        : 0.14
+      Layer Dielectric : 4.1
+* Layer Id             : 3 - M3
+      Thickness        : 0.36
+      Min Width        : 0.14
+      Layer Dielectric : 4.1
+* Layer Id             : 4 - M4
+      Thickness        : 0.36
+      Min Width        : 0.14
+      Layer Dielectric : 4.1
+* Layer Id             : 5 - M5
+      Thickness        : 0.36
+      Min Width        : 0.14
+      Layer Dielectric : 4.1
+* Layer Id             : 6 - M6
+      Thickness        : 0.36
+      Min Width        : 0.14
+      Layer Dielectric : 4.1
+* Layer Id             : 7 - M7
+      Thickness        : 0.36
+      Min Width        : 0.14
+      Layer Dielectric : 4.1
+* Layer Id             : 8 - M8
+      Thickness        : 1
+      Min Width        : 0.44
+      Layer Dielectric : 4.1
+* Layer Id             : 9 - M9
+      Thickness        : 1
+      Min Width        : 0.44
+      Layer Dielectric : 4.1
+extractDetailRC Option : -outfile /tmp/innovus_temp_14947_client04_root_Jvxqok/serial_add_14947_p9vyyJ.rcdb.d  -basic
+RC Mode: PostRoute -effortLevel low [Basic CapTable, LEF Resistances]
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Coupling Cap. Scaling Factor : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 1.00000
+Initializing multi-corner resistance tables ...
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1003.4M)
+Extracted 10.3448% (CPU Time= 0:00:00.0  MEM= 1053.4M)
+Extracted 20.4598% (CPU Time= 0:00:00.0  MEM= 1053.4M)
+Extracted 30.3448% (CPU Time= 0:00:00.0  MEM= 1073.4M)
+Extracted 40.4598% (CPU Time= 0:00:00.0  MEM= 1073.4M)
+Extracted 50.3448% (CPU Time= 0:00:00.0  MEM= 1073.4M)
+Extracted 60.4598% (CPU Time= 0:00:00.0  MEM= 1073.4M)
+Extracted 70.3448% (CPU Time= 0:00:00.0  MEM= 1073.4M)
+Extracted 80.4598% (CPU Time= 0:00:00.0  MEM= 1073.4M)
+Extracted 90.3448% (CPU Time= 0:00:00.0  MEM= 1073.4M)
+Extracted 100% (CPU Time= 0:00:00.0  MEM= 1073.4M)
+Number of Extracted Resistors     : 909
+Number of Extracted Ground Cap.   : 884
+Number of Extracted Coupling Cap. : 1044
+Filtering XCap in 'relativeOnly' mode using values relative_c_threshold=0.03 and total_c_threshold=5fF.
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1033.4M)
+PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:00.0  Real Time: 0:00:00.0  MEM: 1033.363M)
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Initializing multi-corner resistance tables ...
+**WARN: (IMPESI-3082):	The environment variable TMPDIR is set to the path /tmp/innovus_temp_14947_client04_root_Jvxqok which is either not accessible or does not have enough free space to swap delay calculation library data.
+Total number of fetched objects 61
+AAE_INFO: Total number of nets for which stage creation was skipped for all views 0
+AAE_INFO-618: Total number of nets in the design is 63,  93.7 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1257.95 CPU=0:00:00.0 REAL=0:00:00.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1257.9M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1257.9M)
+Starting SI iteration 2
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Glitch Analysis: View Worst -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View Worst -- Total Number of Nets Analyzed = 61. 
+Total number of fetched objects 61
+AAE_INFO: Total number of nets for which stage creation was skipped for all views 0
+AAE_INFO-618: Total number of nets in the design is 63,  0.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1265.99 CPU=0:00:00.0 REAL=0:00:00.0)
+Load RC corner of view Worst
+
+Begin Power Analysis
+
+    0.00V	    VSS
+    0.90V	    VDD
+
+Begin Processing Timing Library for Power Calculation
+
+Begin Processing Timing Library for Power Calculation
+
+
+
+Begin Processing Power Net/Grid for Power Calculation
+
+Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total)=876.56MB/876.56MB)
+
+Begin Processing Timing Window Data for Power Calculation
+
+clk(250MHz) CK: assigning clock clk to net clk
+Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total)=876.68MB/876.68MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=876.73MB/876.73MB)
+
+Begin Processing Signal Activity
+
+
+Starting Levelizing
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT)
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT): 10%
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT): 20%
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT): 30%
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT): 40%
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT): 50%
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT): 60%
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT): 70%
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT): 80%
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT): 90%
+
+Finished Levelizing
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT)
+
+Starting Activity Propagation
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT)
+** INFO:  (VOLTUS_POWR-1356): No default input activity has been set. Defaulting to 0.2.
+Use 'set_default_switching_activity -input_activity' command to change the default activity value.
+
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT): 10%
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT): 20%
+
+Finished Activity Propagation
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT)
+Ended Processing Signal Activity: (cpu=0:00:00, real=0:00:00, mem(process/total)=876.98MB/876.98MB)
+
+Begin Power Computation
+
+      ----------------------------------------------------------
+      # of cell(s) missing both power/leakage table: 0
+      # of cell(s) missing power table: 0
+      # of cell(s) missing leakage table: 0
+      # of MSMV cell(s) missing power_level: 0
+      ----------------------------------------------------------
+
+
+
+Starting Calculating power
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT)
+ ... Calculating switching power
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT): 10%
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT): 20%
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT): 30%
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT): 40%
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT): 50%
+ ... Calculating internal and leakage power
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT): 60%
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT): 70%
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT): 80%
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT): 90%
+
+Finished Calculating power
+2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT)
+Ended Power Computation: (cpu=0:00:00, real=0:00:00, mem(process/total)=877.33MB/877.33MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=877.37MB/877.37MB)
+
+Ended Power Analysis: (cpu=0:00:00, real=0:00:00, mem(process/total)=877.38MB/877.38MB)
+
+Begin Static Power Report Generation
+*----------------------------------------------------------------------------------------
+*	Innovus 16.21-s078_1 (64bit) 01/20/2017 14:00 (Linux 2.6.18-194.el5)
+*	
+*
+* 	Date & Time:	2019-Oct-22 11:36:21 (2019-Oct-22 06:06:21 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*	Design: serial_add
+*
+*	Liberty Libraries used:
+*	        Worst: /root/ASIC_DESIGN/VLSI_DESIGN_2019/Dipanwita_2018112004/A5/serial_add_design.dat/libs/mmmc/slow.lib
+*
+*	Power Domain used:
+*		Rail:        VDD 	Voltage:        0.9
+*
+*       Power View : Worst
+*
+*       User-Defined Activity : N.A.
+*
+*       Activity File: N.A.
+*
+*       Hierarchical Global Activity: N.A.
+*
+*       Global Activity: N.A.
+*
+*       Sequential Element Activity: 0.200000
+*
+*       Primary Input Activity: 0.200000
+*
+*       Default icg ratio: N.A.
+*
+*       Global Comb ClockGate Ratio: N.A.
+*
+*	Power Units = 1mW
+*
+*	Time Units = 1e-09 secs
+*
+*       report_power
+*
+-----------------------------------------------------------------------------------------
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        0.11789337 	   92.6344%
+Total Switching Power:       0.00577012 	    4.5339%
+Total Leakage Power:         0.00360394 	    2.8318%
+Total Power:                 0.12726743
+-----------------------------------------------------------------------------------------
+
+
+Group                           Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+Sequential                        0.1134    0.002651    0.002887       0.119       93.47
+Macro                                  0           0           0           0           0
+IO                                     0           0           0           0           0
+Combinational                   0.004479    0.003119   0.0007166    0.008314       6.533
+Clock (Combinational)                  0           0           0           0           0
+Clock (Sequential)                     0           0           0           0           0
+-----------------------------------------------------------------------------------------
+Total                             0.1179     0.00577    0.003604      0.1273         100
+-----------------------------------------------------------------------------------------
+
+
+Rail                  Voltage   Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+VDD                       0.9     0.1179     0.00577    0.003604      0.1273         100
+ 
+ 
+-----------------------------------------------------------------------------------------
+*	Power Distribution Summary: 
+* 		Highest Average Power:               temp_reg[0] (SDFFRHQX1): 	  0.006223
+* 		Highest Leakage Power:                  i_reg[1] (SDFFRHQX1): 	 0.0001526
+* 		Total Cap: 	2.91153e-13 F
+* 		Total instances in design:    49
+* 		Total instances in design with no power:     0
+*                Total instances in design with no activty:     0
+
+* 		Total Fillers and Decap:     0
+-----------------------------------------------------------------------------------------
+ 
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:00,
+mem(process/total)=877.59MB/877.59MB)
+

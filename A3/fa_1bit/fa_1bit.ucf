@@ -1,0 +1,5 @@
+net "a" loc ="R17";
+net "b" loc = "N17";
+net "cin" loc ="L13";
+net "s" loc ="R4";
+net "cout" loc ="F4";

@@ -1,0 +1,28 @@
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/encoder_83.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/encoder_83.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a8-csg324-3 encoder_83.ngc encoder_83.ngd  
+map -intstyle ise -p xc7a8-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o encoder_83_map.ncd encoder_83.ngd encoder_83.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a8-csg324-3 encoder_83.ngc encoder_83.ngd  
+map -intstyle ise -p xc7a8-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o encoder_83_map.ncd encoder_83.ngd encoder_83.pcf 
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/encoder_83.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/encoder_83.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a15-csg324-3 encoder_83.ngc encoder_83.ngd  
+map -intstyle ise -p xc7a15-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o encoder_83_map.ncd encoder_83.ngd encoder_83.pcf 
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/encoder_83.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/encoder_83.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a350t-fbg484-3 encoder_83.ngc encoder_83.ngd  
+map -intstyle ise -p xc7a350t-fbg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o encoder_83_map.ncd encoder_83.ngd encoder_83.pcf 
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/encoder_83.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/encoder_83.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 encoder_83.ngc encoder_83.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o encoder_83_map.ncd encoder_83.ngd encoder_83.pcf 
+par -w -intstyle ise -ol high -mt off encoder_83_map.ncd encoder_83.ncd encoder_83.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml encoder_83.twx encoder_83.ncd -o encoder_83.twr encoder_83.pcf 
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/encoder_83.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/encoder_83.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc enc_ucf.ucf -p xc3s500e-fg320-5 encoder_83.ngc encoder_83.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o encoder_83_map.ncd encoder_83.ngd encoder_83.pcf 
+par -w -intstyle ise -ol high -t 1 encoder_83_map.ncd encoder_83.ncd encoder_83.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml encoder_83.twx encoder_83.ncd -o encoder_83.twr encoder_83.pcf -ucf enc_ucf.ucf 
+bitgen -intstyle ise -f encoder_83.ut encoder_83.ncd 
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/encoder_83.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/Assignment2/encoder_83.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc enc_ucf.ucf -p xc3s500e-fg320-5 encoder_83.ngc encoder_83.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o encoder_83_map.ncd encoder_83.ngd encoder_83.pcf 
+par -w -intstyle ise -ol high -t 1 encoder_83_map.ncd encoder_83.ncd encoder_83.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml encoder_83.twx encoder_83.ncd -o encoder_83.twr encoder_83.pcf -ucf enc_ucf.ucf 
+bitgen -intstyle ise -f encoder_83.ut encoder_83.ncd 

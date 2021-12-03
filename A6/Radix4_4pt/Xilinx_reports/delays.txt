@@ -1,0 +1,38 @@
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1354 / 36
+-------------------------------------------------------------------------
+Delay:               11.550ns (Levels of Logic = 10)
+  Source:            a<0> (PAD)
+  Destination:       A_rnm0<5> (PAD)
+
+  Data Path: a<0> to A_rnm0<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   1.106   0.766  a_0_IBUF (a_0_IBUF)
+     LUT4:I1->O            3   0.612   0.451  Madd_A_rnm0_addsub0002_cy<1>11 (Madd_A_rnm0_addsub0002_cy<1>)
+     MUXF5:S->O            1   0.641   0.509  Madd_A_rnm0_addsub0002_xor<3>11_f5 (A_rnm0_addsub0002<3>)
+     LUT2:I0->O            1   0.612   0.000  Madd_A_rnm0_addsub0003_lut<3> (Madd_A_rnm0_addsub0003_lut<3>)
+     MUXCY:S->O            1   0.404   0.000  Madd_A_rnm0_addsub0003_cy<3> (Madd_A_rnm0_addsub0003_cy<3>)
+     XORCY:CI->O           1   0.699   0.509  Madd_A_rnm0_addsub0003_xor<4> (A_rnm0_addsub0003<4>)
+     LUT1:I0->O            1   0.612   0.000  Madd_A_rnm0_cy<4>_rt (Madd_A_rnm0_cy<4>_rt)
+     MUXCY:S->O            0   0.404   0.000  Madd_A_rnm0_cy<4> (Madd_A_rnm0_cy<4>)
+     XORCY:CI->O           1   0.699   0.357  Madd_A_rnm0_xor<5> (A_rnm0_5_OBUF)
+     OBUF:I->O                 3.169          A_rnm0_5_OBUF (A_rnm0<5>)
+    ----------------------------------------
+    Total                     11.550ns (8.958ns logic, 2.592ns route)
+                                       (77.6% logic, 22.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.47 secs
+ 
+--> 
+

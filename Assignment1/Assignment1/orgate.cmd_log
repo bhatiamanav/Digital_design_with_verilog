@@ -1,0 +1,21 @@
+vhdtdtfi -lib work /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/orgate.v -lang verilog -prj Assignment1 -o orgate.spl -module orgate -template /opt/Xilinx/13.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 orgate.spl /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/orgate.sym 
+vhdtdtfi -lang verilog -prj Assignment1 -o /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/orgate.tfi -lib work /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1//orgate.v -module orgate -template /opt/Xilinx/13.4/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/orgate.v -lang verilog -prj Assignment1 -o orgate.spl -module orgate -template /opt/Xilinx/13.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 orgate.spl /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/orgate.sym 
+vhdtdtfi -lang verilog -prj Assignment1 -o /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/orgate.tfi -lib work /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1//orgate.v -module orgate -template /opt/Xilinx/13.4/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/orgate.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/orgate.syr" 
+vhdtdtfi -lib work /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/orgate.v -lang verilog -prj Assignment1 -o orgate.spl -module orgate -template /opt/Xilinx/13.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 orgate.spl /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/orgate.sym 
+vhdtdtfi -lib work /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/orgate.v -lang verilog -prj Assignment1 -o orgate.spl -module orgate -template /opt/Xilinx/13.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 orgate.spl /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/orgate.sym 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a8-csg324-3 orgate.ngc orgate.ngd  
+map -intstyle ise -p xc7a8-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o orgate_map.ncd orgate.ngd orgate.pcf 
+map -intstyle ise -p xc7a8-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o orgate_map.ncd orgate.ngd orgate.pcf 
+map -intstyle ise -p xc7a8-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o orgate_map.ncd orgate.ngd orgate.pcf 
+map -intstyle ise -p xc7a8-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o orgate_map.ncd orgate.ngd orgate.pcf 
+vhdtdtfi -lang verilog -prj Assignment1 -o /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/orgate.tfi -lib work /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1//orgate.v -module orgate -template /opt/Xilinx/13.4/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/orgate.v -lang verilog -prj Assignment1 -o orgate.spl -module orgate -template /opt/Xilinx/13.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 orgate.spl /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/orgate.sym 
+vhdtdtfi -lib work /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/orgate.v -lang verilog -prj Assignment1 -o orgate.spl -module orgate -template /opt/Xilinx/13.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 orgate.spl /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/orgate.sym 

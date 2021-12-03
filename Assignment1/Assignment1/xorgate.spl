@@ -1,0 +1,9 @@
+[Inputs]
+a
+b
+[Outputs]
+y
+[BiDir]
+[ATTRIBUTES]
+VeriModel xorgate
+

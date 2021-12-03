@@ -1,0 +1,11 @@
+[Inputs]
+a
+b
+c
+d
+[Outputs]
+y
+[BiDir]
+[ATTRIBUTES]
+VeriModel comb_ckta
+

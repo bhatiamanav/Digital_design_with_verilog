@@ -1,0 +1,24 @@
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 6 / 2
+-------------------------------------------------------------------------
+Delay:               5.776ns (Levels of Logic = 3)
+  Source:            b (PAD)
+  Destination:       cout (PAD)
+
+  Data Path: b to cout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.106   0.532  b_IBUF (b_IBUF)
+     LUT3:I0->O            1   0.612   0.357  cout1 (cout_OBUF)
+     OBUF:I->O                 3.169          cout_OBUF (cout)
+    ----------------------------------------
+    Total                      5.776ns (4.887ns logic, 0.889ns route)
+                                       (84.6% logic, 15.4% route)
+
+=========================================================================

@@ -1,0 +1,38 @@
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 20
+#      LUT3                        : 16
+#      MUXF5                       : 4
+# FlipFlops/Latches                : 12
+#      FDR_1                       : 8
+#      LDCPE                       : 4
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 13
+#      IBUF                        : 9
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1200efg320-5 
+
+ Number of Slices:                       11  out of   8672     0%  
+ Number of Slice Flip Flops:              8  out of  17344     0%  
+ Number of 4 input LUTs:                 16  out of  17344     0%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    250     5%  
+    IOB Flip Flops:                       4
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------

@@ -1,0 +1,26 @@
+ISim log file
+Running: /home/susiejojo/Sems/Sem3/VLSID/Assignment2/enc_83_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/susiejojo/Sems/Sem3/VLSID/Assignment2/enc_83_test_isim_beh.wdb 
+ISim O.87xd (signature 0x8ddf5b5d)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ENABLE:0 INPUTS: 00000000 	 VALID: x 	 Y2= x Y1 = x Y0= x
+ENABLE:1 INPUTS: 00000000 	 VALID: 0 	 Y2= x Y1 = x Y0= x
+ENABLE:1 INPUTS: 00000001 	 VALID: 1 	 Y2= 0 Y1 = 0 Y0= 0
+ENABLE:1 INPUTS: 0000001x 	 VALID: 1 	 Y2= 0 Y1 = 0 Y0= 1
+ENABLE:1 INPUTS: 000001xx 	 VALID: 1 	 Y2= 0 Y1 = 1 Y0= 0
+ENABLE:1 INPUTS: 00001xxx 	 VALID: 1 	 Y2= 0 Y1 = 1 Y0= 1
+ENABLE:1 INPUTS: 0001xxxx 	 VALID: 1 	 Y2= 1 Y1 = 0 Y0= 0
+ENABLE:1 INPUTS: 001xxxxx 	 VALID: 1 	 Y2= 1 Y1 = 0 Y0= 1
+ENABLE:1 INPUTS: 01xxxxxx 	 VALID: 1 	 Y2= 1 Y1 = 1 Y0= 0
+ENABLE:1 INPUTS: 1xxxxxxx 	 VALID: 1 	 Y2= 1 Y1 = 1 Y0= 1
+ENABLE:1 INPUTS: 1xxxxxxx 	 VALID: 1 	 Y2= 1 Y1 = 1 Y0= 1
+ENABLE:1 INPUTS: 1xxxxxxx 	 VALID: 1 	 Y2= 1 Y1 = 1 Y0= 1
+# exit 0

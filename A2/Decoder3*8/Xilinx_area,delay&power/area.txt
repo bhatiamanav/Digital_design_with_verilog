@@ -1,0 +1,20 @@
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a8csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                    8  out of   5000     0%  
+    Number used as Logic:                 8  out of   5000     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      8
+   Number with an unused Flip Flop:       8  out of      8   100%  
+   Number with an unused LUT:             0  out of      8     0%  
+   Number of fully used LUT-FF pairs:     0  out of      8     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          12
+ Number of bonded IOBs:                  12  out of    200     6%  

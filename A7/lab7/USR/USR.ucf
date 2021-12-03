@@ -1,0 +1,12 @@
+NET "clk" PERIOD = 2ms HIGH 50%;
+net "clk" loc="B8";
+net "s[1]" loc="N17";
+net "s[0]" loc="L13";
+net "I[0]" loc="L14";
+net "I[1]" loc="K17";
+net "I[2]" loc="K18";
+net "I[3]" loc="H13";
+net "O[0]" loc="J14";
+net "O[1]" loc="J15";
+net "O[2]" loc="K15";
+net "O[3]" loc="K14";

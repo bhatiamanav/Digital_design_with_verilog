@@ -1,0 +1,29 @@
+Command line:
+   conc_cktc_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  42033
+
+Tue Sep  3 17:32:55 2019
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 181.338 Meg
+
+ Total Signals          : 25
+ Total Nets             : 24
+ Total Signal Drivers   : 16
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 20
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 141
+Total Line Count : 28
+
+ Total Simulation Time: 0.1 sec
+
+ Current Memory Usage: 256.84 Meg
+
+Tue Sep  3 17:37:33 2019
+

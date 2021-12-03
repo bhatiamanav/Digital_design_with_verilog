@@ -1,0 +1,3 @@
+verilog work "mux21.v"
+verilog work "mux21_test.v"
+verilog work "/opt/Xilinx/13.4/ISE_DS/ISE//verilog/src/glbl.v"

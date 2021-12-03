@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/susiejojo/Sems/Sem3/VLSID/Assignment2/demux_14_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="demux_14_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/demux_14_test/y0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y0</obj_property>
+      <obj_property name="ObjectShortName">y0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/demux_14_test/y1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y1</obj_property>
+      <obj_property name="ObjectShortName">y1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/demux_14_test/y2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y2</obj_property>
+      <obj_property name="ObjectShortName">y2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/demux_14_test/y3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y3</obj_property>
+      <obj_property name="ObjectShortName">y3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/demux_14_test/d" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">d</obj_property>
+      <obj_property name="ObjectShortName">d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/demux_14_test/s0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s0</obj_property>
+      <obj_property name="ObjectShortName">s0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/demux_14_test/s1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s1</obj_property>
+      <obj_property name="ObjectShortName">s1</obj_property>
+   </wvobject>
+</wave_config>

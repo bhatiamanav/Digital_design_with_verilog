@@ -1,0 +1,49 @@
+Release 13.4 Map O.87xd (lin64)
+Xilinx Mapping Report File for Design 'xorgate'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off
+-c 100 -o xorgate_map.ncd xorgate.ngd xorgate.pcf 
+Target Device  : xc3s1200e
+Target Package : fg320
+Target Speed   : -5
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Wed Sep 11 09:12:35 2019
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   0
+
+Section 1 - Errors
+------------------
+ERROR:Pack:1107 - Pack was unable to combine the symbols listed below into a
+   single IOB component because the site type selected is not compatible. The
+   component type is determined by the types of logic and the properties and
+   configuration of the logic it contains. In this case an IO component of type
+   IOB was chosen because the IO contains symbols and/or properties consistent
+   with output or bi-directional usage and contains no other symbols or
+   properties that require a more specific IO component type. Please double
+   check that the types of logic elements and all of their relevant properties
+   and configuration options are compatible with the physical site type of the
+   constraint.
+
+   Summary:
+   Symbols involved:
+   	BUF symbol "y_OBUF" (Output Signal = y)
+   	PAD symbol "y" (Pad Signal = y)
+   Component type involved: IOB
+   Site Location involved: R4
+   Site Type involved: IBUF
+
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.

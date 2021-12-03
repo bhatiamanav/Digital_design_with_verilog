@@ -1,0 +1,58 @@
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 13.535ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 604 / 8
+-------------------------------------------------------------------------
+Delay:               13.535ns (Levels of Logic = 10)
+  Source:            A<1> (PAD)
+  Destination:       mul<7> (PAD)
+
+  Data Path: A<1> to mul<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   1.106   0.754  A_1_IBUF (A_1_IBUF)
+     LUT2:I0->O            2   0.612   0.410  _and00031 (_and0003)
+     LUT4:I2->O            2   0.612   0.532  f1/Mxor_s_Result1 (s11)
+     LUT3:I0->O            3   0.612   0.603  h2/cout1 (c20)
+     LUT4:I0->O            2   0.612   0.410  f3/cout1 (c21)
+     LUT4:I2->O            2   0.612   0.383  f4/Mxor_s_Result1 (s22)
+     LUT4:I3->O            2   0.612   0.532  f5/cout1 (c31)
+     LUT4:I0->O            2   0.612   0.383  f7/cout1 (c32)
+     LUT4:I3->O            1   0.612   0.357  f8/cout1 (mul_7_OBUF)
+     OBUF:I->O                 3.169          mul_7_OBUF (mul<7>)
+    ----------------------------------------
+    Total                     13.535ns (9.171ns logic, 4.364ns route)
+                                       (67.8% logic, 32.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.31 secs

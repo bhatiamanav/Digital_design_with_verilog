@@ -1,0 +1,8 @@
+Release 13.4 Drc O.87xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Tue Oct  8 00:27:59 2019
+
+drc -z demux_12.ncd demux_12.pcf
+
+DRC detected 0 errors and 0 warnings.

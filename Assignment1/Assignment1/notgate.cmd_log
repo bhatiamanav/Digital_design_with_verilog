@@ -1,0 +1,5 @@
+vhdtdtfi -lib work /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/notgate.v -lang verilog -prj Assignment1 -o notgate.spl -module notgate -template /opt/Xilinx/13.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 notgate.spl /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/notgate.sym 
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/notgate.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/notgate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a8-csg324-3 notgate.ngc notgate.ngd  
+map -intstyle ise -p xc7a8-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o notgate_map.ncd notgate.ngd notgate.pcf 

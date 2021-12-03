@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/susiejojo/Sems/Sem3/VLSID/Assignment2/mux_41_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mux_41_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/mux_41_test/y" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y</obj_property>
+      <obj_property name="ObjectShortName">y</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mux_41_test/i0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i0</obj_property>
+      <obj_property name="ObjectShortName">i0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mux_41_test/i1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i1</obj_property>
+      <obj_property name="ObjectShortName">i1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mux_41_test/i2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i2</obj_property>
+      <obj_property name="ObjectShortName">i2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mux_41_test/i3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i3</obj_property>
+      <obj_property name="ObjectShortName">i3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mux_41_test/s0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s0</obj_property>
+      <obj_property name="ObjectShortName">s0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mux_41_test/s1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s1</obj_property>
+      <obj_property name="ObjectShortName">s1</obj_property>
+   </wvobject>
+</wave_config>

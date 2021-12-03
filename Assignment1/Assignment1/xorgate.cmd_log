@@ -1,0 +1,9 @@
+vhdtdtfi -lib work /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/xorgate.v -lang verilog -prj Assignment1 -o xorgate.spl -module xorgate -template /opt/Xilinx/13.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 xorgate.spl /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/xorgate.sym 
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/xorgate.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/xorgate.syr" 
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/xorgate.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/xorgate.syr" 
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/xorgate.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/xorgate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s1200e-fg320-5 xorgate.ngc xorgate.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o xorgate_map.ncd xorgate.ngd xorgate.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s1200e-fg320-5 xorgate.ngc xorgate.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o xorgate_map.ncd xorgate.ngd xorgate.pcf 

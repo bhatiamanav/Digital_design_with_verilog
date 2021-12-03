@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/xorgate_test_isim_beh.exe" -prj "/home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/xorgate_test_beh.prj" "work.xorgate_test" "work.glbl" 

@@ -1,0 +1,42 @@
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 9.378ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 212 / 8
+-------------------------------------------------------------------------
+Delay:               9.378ns (Levels of Logic = 8)
+  Source:            A<0> (PAD)
+  Destination:       mul<3> (PAD)
+
+  Data Path: A<0> to mul<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            22   1.106   1.141  A_0_IBUF (A_0_IBUF)
+     LUT4:I0->O            1   0.612   0.000  mul<3>468_SW0_F (N49)
+     MUXF5:I0->O           1   0.278   0.426  mul<3>468_SW0 (N25)
+     LUT2:I1->O            1   0.612   0.000  mul<3>4682 (mul<3>4682)
+     MUXF5:I0->O           1   0.278   0.509  mul<3>468_f5 (mul<3>468)
+     LUT4:I0->O            1   0.612   0.000  mul<3>514_G (N38)
+     MUXF5:I1->O           1   0.278   0.357  mul<3>514 (mul_3_OBUF)
+     OBUF:I->O                 3.169          mul_3_OBUF (mul<3>)
+    ----------------------------------------
+    Total                      9.378ns (6.945ns logic, 2.433ns route)
+                                       (74.1% logic, 25.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 3.71 secs

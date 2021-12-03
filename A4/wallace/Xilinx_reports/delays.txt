@@ -1,0 +1,35 @@
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 686 / 8
+-------------------------------------------------------------------------
+Delay:               12.899ns (Levels of Logic = 10)
+  Source:            A<0> (PAD)
+  Destination:       prod<6> (PAD)
+
+  Data Path: A<0> to prod<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             6   1.106   0.721  A_0_IBUF (A_0_IBUF)
+     LUT2:I0->O            2   0.612   0.383  _and00041 (_and0004)
+     LUT4:I3->O            2   0.612   0.449  fa1/Mxor_s_Result1 (r2)
+     LUT2:I1->O            2   0.612   0.532  ha7/cout1 (c_2)
+     LUT4:I0->O            3   0.612   0.520  ha3/cout1 (C3)
+     LUT4:I1->O            2   0.612   0.532  ha4/cout1 (C4)
+     LUT4:I0->O            4   0.612   0.568  ha5/cout1 (C5)
+     LUT4:I1->O            1   0.612   0.000  ha6/Mxor_s_Result11 (ha6/Mxor_s_Result1)
+     MUXF5:I1->O           1   0.278   0.357  ha6/Mxor_s_Result1_f5 (prod_6_OBUF)
+     OBUF:I->O                 3.169          prod_6_OBUF (prod<6>)
+    ----------------------------------------
+    Total                     12.899ns (8.837ns logic, 4.062ns route)
+                                       (68.5% logic, 31.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.36 secs

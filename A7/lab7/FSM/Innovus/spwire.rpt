@@ -1,0 +1,170 @@
+
+VDD TOTAL SEGMENTS 55 WIRE LENGTH 296.9900 VIAS 112 MASTERS 19
+
+--------------------------------------------------------------- 
+
+VDD FOLLOWPIN SEGMENTS 12 WIRE LENGTH 32.6000 VIAS 0 MASTERS 0
+
+    WIDTH  0.3600    LENGTH  32.6000
+
+--------------------------------------------------------------- 
+
+VDD COREWIRE SEGMENTS 36 WIRE LENGTH 89.9400 VIAS 60 MASTERS 11
+
+     COREWIRE    LAYER 2 (Metal2)  VIAS 20  CUTS 68
+     COREWIRE    LAYER 3 (Metal3)  VIAS 20  CUTS 68
+     COREWIRE    LAYER 4 (Metal4)  VIAS 4  CUTS 24
+     COREWIRE    LAYER 5 (Metal5)  VIAS 4  CUTS 24
+     COREWIRE    LAYER 6 (Metal6)  VIAS 4  CUTS 24
+     COREWIRE    LAYER 7 (Metal7)  VIAS 4  CUTS 24
+     COREWIRE    LAYER 8 (Metal8)  VIAS 4  CUTS 8
+--------------------------------------------------------------- 
+
+VDD STRIPE SEGMENTS 3 WIRE LENGTH 72.0300 VIAS 48 MASTERS 8
+
+     STRIPE    LAYER 2 (Metal2)  VIAS 6  CUTS 180
+     STRIPE    LAYER 3 (Metal3)  VIAS 6  CUTS 180
+     STRIPE    LAYER 4 (Metal4)  VIAS 6  CUTS 180
+     STRIPE    LAYER 5 (Metal5)  VIAS 6  CUTS 180
+     STRIPE    LAYER 6 (Metal6)  VIAS 6  CUTS 180
+     STRIPE    LAYER 7 (Metal7)  VIAS 6  CUTS 180
+     STRIPE    LAYER 8 (Metal8)  VIAS 6  CUTS 24
+     STRIPE    LAYER 9 (Metal9)  VIAS 6  CUTS 24
+--------------------------------------------------------------- 
+
+VDD RING SEGMENTS 4 WIRE LENGTH 102.4200 VIAS 4 MASTERS 1
+
+     RING    LAYER 9 (Metal9)  VIAS 4  CUTS 16
+--------------------------------------------------------------- 
+
+--------------------------------------------------------------- 
+
+
+VSS TOTAL SEGMENTS 55 WIRE LENGTH 343.3500 VIAS 97 MASTERS 17
+
+--------------------------------------------------------------- 
+
+VSS FOLLOWPIN SEGMENTS 12 WIRE LENGTH 33.2250 VIAS 0 MASTERS 0
+
+    WIDTH  0.3600    LENGTH  33.2250
+
+--------------------------------------------------------------- 
+
+VSS COREWIRE SEGMENTS 36 WIRE LENGTH 85.2750 VIAS 45 MASTERS 9
+
+     COREWIRE    LAYER 2 (Metal2)  VIAS 15  CUTS 54
+     COREWIRE    LAYER 3 (Metal3)  VIAS 15  CUTS 54
+     COREWIRE    LAYER 4 (Metal4)  VIAS 3  CUTS 18
+     COREWIRE    LAYER 5 (Metal5)  VIAS 3  CUTS 18
+     COREWIRE    LAYER 6 (Metal6)  VIAS 3  CUTS 18
+     COREWIRE    LAYER 7 (Metal7)  VIAS 3  CUTS 18
+     COREWIRE    LAYER 8 (Metal8)  VIAS 3  CUTS 6
+--------------------------------------------------------------- 
+
+VSS STRIPE SEGMENTS 3 WIRE LENGTH 93.6300 VIAS 48 MASTERS 8
+
+     STRIPE    LAYER 2 (Metal2)  VIAS 6  CUTS 180
+     STRIPE    LAYER 3 (Metal3)  VIAS 6  CUTS 180
+     STRIPE    LAYER 4 (Metal4)  VIAS 6  CUTS 180
+     STRIPE    LAYER 5 (Metal5)  VIAS 6  CUTS 180
+     STRIPE    LAYER 6 (Metal6)  VIAS 6  CUTS 180
+     STRIPE    LAYER 7 (Metal7)  VIAS 6  CUTS 180
+     STRIPE    LAYER 8 (Metal8)  VIAS 6  CUTS 24
+     STRIPE    LAYER 9 (Metal9)  VIAS 6  CUTS 24
+--------------------------------------------------------------- 
+
+VSS RING SEGMENTS 4 WIRE LENGTH 131.2200 VIAS 4 MASTERS 1
+
+     RING    LAYER 9 (Metal9)  VIAS 4  CUTS 16
+--------------------------------------------------------------- 
+
+--------------------------------------------------------------- 
+
+
+
+ ALL VDD VIAS : 
+
+M2_M1v_1.8000_0.3600_1x6_1_FF           	8    LAYER 2 (Metal2) 
+M2_M1v_1.8000_1.8000_0.3500_0.2900_6x5_6_FF	6    LAYER 2 (Metal2) 
+M3_M2v_1.8000_0.3600_1x6_1_FF           	8    LAYER 3 (Metal3) 
+M3_M2v_1.8000_1.8000_0.3500_0.2900_6x5_6_FF	6    LAYER 3 (Metal3) 
+M4_M3v_1.8000_0.3600_1x6_1_FF           	4    LAYER 4 (Metal4) 
+M4_M3v_1.8000_1.8000_0.3500_0.2900_6x5_6_FF	6    LAYER 4 (Metal4) 
+M5_M4v_1.8000_0.3600_1x6_1_FF           	4    LAYER 5 (Metal5) 
+M5_M4v_1.8000_1.8000_0.3500_0.2900_6x5_6_FF	6    LAYER 5 (Metal5) 
+M6_M5v_1.8000_0.3600_1x6_1_FF           	4    LAYER 6 (Metal6) 
+M6_M5v_1.8000_1.8000_0.3500_0.2900_6x5_6_FF	6    LAYER 6 (Metal6) 
+M7_M6v_1.8000_0.3600_1x6_1_FF           	4    LAYER 7 (Metal7) 
+M7_M6v_1.8000_1.8000_0.3500_0.2900_6x5_6_FF	6    LAYER 7 (Metal7) 
+VIA1ARRAY_0.1800_0.3600_1x1_1_F         	4    LAYER 2 (Metal2) 
+VIA1ARRAY_0.6000_0.3600_1x2_1_F         	8    LAYER 2 (Metal2) 
+VIA2ARRAY_0.2300_0.3600_1x1_1_F         	4    LAYER 3 (Metal3) 
+VIA2ARRAY_0.6000_0.3600_1x2_1_F         	8    LAYER 3 (Metal3) 
+VIA7ARRAY_1.8000_0.4600_1x2_1_F         	4    LAYER 8 (Metal8) 
+VIA7ARRAY_1.8000_1.8000_2x2_2_F         	6    LAYER 8 (Metal8) 
+VIA8ARRAY_1.8000_1.8000_0.9000_0.9000_2x2_2_F	10   LAYER 9 (Metal9) 
+--------------------------------------------------------------- 
+
+
+ ALL VSS VIAS : 
+
+M2_M1v_1.8000_0.3600_1x6_1_FF           	6    LAYER 2 (Metal2) 
+M2_M1v_1.8000_1.8000_0.3500_0.2900_6x5_6_FF	6    LAYER 2 (Metal2) 
+M3_M2v_1.8000_0.3600_1x6_1_FF           	6    LAYER 3 (Metal3) 
+M3_M2v_1.8000_1.8000_0.3500_0.2900_6x5_6_FF	6    LAYER 3 (Metal3) 
+M4_M3v_1.8000_0.3600_1x6_1_FF           	3    LAYER 4 (Metal4) 
+M4_M3v_1.8000_1.8000_0.3500_0.2900_6x5_6_FF	6    LAYER 4 (Metal4) 
+M5_M4v_1.8000_0.3600_1x6_1_FF           	3    LAYER 5 (Metal5) 
+M5_M4v_1.8000_1.8000_0.3500_0.2900_6x5_6_FF	6    LAYER 5 (Metal5) 
+M6_M5v_1.8000_0.3600_1x6_1_FF           	3    LAYER 6 (Metal6) 
+M6_M5v_1.8000_1.8000_0.3500_0.2900_6x5_6_FF	6    LAYER 6 (Metal6) 
+M7_M6v_1.8000_0.3600_1x6_1_FF           	3    LAYER 7 (Metal7) 
+M7_M6v_1.8000_1.8000_0.3500_0.2900_6x5_6_FF	6    LAYER 7 (Metal7) 
+VIA1ARRAY_0.6000_0.3600_1x2_1_F         	9    LAYER 2 (Metal2) 
+VIA2ARRAY_0.6000_0.3600_1x2_1_F         	9    LAYER 3 (Metal3) 
+VIA7ARRAY_1.8000_0.4600_1x2_1_F         	3    LAYER 8 (Metal8) 
+VIA7ARRAY_1.8000_1.8000_2x2_2_F         	6    LAYER 8 (Metal8) 
+VIA8ARRAY_1.8000_1.8000_0.9000_0.9000_2x2_2_F	10   LAYER 9 (Metal9) 
+--------------------------------------------------------------- 
+
+
+** VIA MASTER INFORMATION
+
+#Cuts -- number of cuts the corresponding viaPattern/via contains
+#InstVia -- number of vias that use the corresponding viaPattern/via
+#Total Cut -- Cuts * InstVia
+
+PatternName/ViaName                               #Cuts	#InstVia	#Total Cut
+
+M2_M1v_1.8000_0.3600_1x6_1_FF                     6    	14      	84        
+M2_M1v_1.8000_1.8000_0.3500_0.2900_6x5_6_FF       30   	12      	360       
+M3_M2v_1.8000_0.3600_1x6_1_FF                     6    	14      	84        
+M3_M2v_1.8000_1.8000_0.3500_0.2900_6x5_6_FF       30   	12      	360       
+M4_M3v_1.8000_0.3600_1x6_1_FF                     6    	7       	42        
+M4_M3v_1.8000_1.8000_0.3500_0.2900_6x5_6_FF       30   	12      	360       
+M5_M4v_1.8000_0.3600_1x6_1_FF                     6    	7       	42        
+M5_M4v_1.8000_1.8000_0.3500_0.2900_6x5_6_FF       30   	12      	360       
+M6_M5v_1.8000_0.3600_1x6_1_FF                     6    	7       	42        
+M6_M5v_1.8000_1.8000_0.3500_0.2900_6x5_6_FF       30   	12      	360       
+M7_M6v_1.8000_0.3600_1x6_1_FF                     6    	7       	42        
+M7_M6v_1.8000_1.8000_0.3500_0.2900_6x5_6_FF       30   	12      	360       
+VIA1ARRAY_0.1800_0.3600_1x1_1_F                   1    	4       	4         
+VIA1ARRAY_0.6000_0.3600_1x2_1_F                   2    	17      	34        
+VIA2ARRAY_0.2300_0.3600_1x1_1_F                   1    	4       	4         
+VIA2ARRAY_0.6000_0.3600_1x2_1_F                   2    	17      	34        
+VIA7ARRAY_1.8000_0.4600_1x2_1_F                   2    	7       	14        
+VIA7ARRAY_1.8000_1.8000_2x2_2_F                   4    	12      	48        
+VIA8ARRAY_1.8000_1.8000_0.9000_0.9000_2x2_2_F     4    	20      	80        
+
+  TOTAL CUTS = 2714
+
+
+ ALL VIAS : 
+
+--------------------------------------------------------------- 
+
+
+ ALL VIAS : 
+
+--------------------------------------------------------------- 
+

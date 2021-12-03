@@ -1,0 +1,76 @@
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 2     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 1.754ns
+   Maximum output required time after clock: 5.009ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              1.754ns (Levels of Logic = 1)
+  Source:            d (PAD)
+  Destination:       q (FF)
+  Destination Clock: clk rising
+
+  Data Path: d to q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.106   0.380  d_IBUF (d_IBUF)
+     FD:D                      0.268          q
+    ----------------------------------------
+    Total                      1.754ns (1.374ns logic, 0.380ns route)
+                                       (78.3% logic, 21.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              5.009ns (Levels of Logic = 2)
+  Source:            q (FF)
+  Destination:       q_c (PAD)
+  Source Clock:      clk rising
+
+  Data Path: q to q_c
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.514   0.357  q (q_OBUF)
+     INV:I->O              1   0.612   0.357  q_c1_INV_0 (q_c_OBUF)
+     OBUF:I->O                 3.169          q_c_OBUF (q_c)
+    ----------------------------------------
+    Total                      5.009ns (4.295ns logic, 0.714ns route)
+                                       (85.7% logic, 14.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 3.42 secs
+ 

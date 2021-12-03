@@ -1,0 +1,29 @@
+Command line:
+   xorgate_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  2
+     -socket  39511
+
+Wed Sep  4 16:40:49 2019
+
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 181.338 Meg
+
+ Total Signals          : 17
+ Total Nets             : 16
+ Total Signal Drivers   : 8
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 11
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 98
+Total Line Count : 24
+
+ Total Simulation Time: 0.04 sec
+
+ Current Memory Usage: 256.84 Meg
+
+Wed Sep  4 16:41:03 2019
+

@@ -1,0 +1,121 @@
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 22    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst_inv(rst_inv1_INV_0:O)          | NONE(i_0)              | 8     |
+temp_1_and0000(temp_1_and00001:O)  | NONE(temp_1)           | 1     |
+temp_1_and0001(temp_1_and00011:O)  | NONE(temp_1)           | 1     |
+x_0_and0000(x_0_and00001:O)        | NONE(x_0)              | 1     |
+x_0_and0001(x_0_and00011:O)        | NONE(x_0)              | 1     |
+x_1_and0000(x_1_and00001:O)        | NONE(x_1)              | 1     |
+x_1_and0001(x_1_and00011:O)        | NONE(x_1)              | 1     |
+x_2_and0000(x_2_and00001:O)        | NONE(x_2)              | 1     |
+x_2_and0001(x_2_and00011:O)        | NONE(x_2)              | 1     |
+x_3_and0000(x_3_and00001:O)        | NONE(x_3)              | 1     |
+x_3_and0001(x_3_and00011:O)        | NONE(x_3)              | 1     |
+y_0_and0000(y_0_and00001:O)        | NONE(y_0)              | 1     |
+y_0_and0001(y_0_and00011:O)        | NONE(y_0)              | 1     |
+y_1_and0000(y_1_and00001:O)        | NONE(y_1)              | 1     |
+y_1_and0001(y_1_and00011:O)        | NONE(y_1)              | 1     |
+y_2_and0000(y_2_and00001:O)        | NONE(y_2)              | 1     |
+y_2_and0001(y_2_and00011:O)        | NONE(y_2)              | 1     |
+y_3_and0000(y_3_and00001:O)        | NONE(y_3)              | 1     |
+y_3_and0001(y_3_and00011:O)        | NONE(y_3)              | 1     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 2.649ns (Maximum Frequency: 377.501MHz)
+   Minimum input arrival time before clock: 3.811ns
+   Maximum output required time after clock: 4.040ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 2.649ns (frequency: 377.501MHz)
+  Total number of paths / destination ports: 44 / 27
+-------------------------------------------------------------------------
+Delay:               2.649ns (Levels of Logic = 1)
+  Source:            i_0 (FF)
+  Destination:       S_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: i_0 to S_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.514   0.541  i_0 (i_0)
+     LUT4:I3->O            4   0.612   0.499  S_and00001 (S_and0000)
+     FDE:CE                    0.483          S_0
+    ----------------------------------------
+    Total                      2.649ns (1.609ns logic, 1.040ns route)
+                                       (60.7% logic, 39.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              3.811ns (Levels of Logic = 2)
+  Source:            rst (PAD)
+  Destination:       S_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst to S_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            21   1.106   1.111  rst_IBUF (rst_IBUF)
+     LUT4:I0->O            4   0.612   0.499  S_and00001 (S_and0000)
+     FDE:CE                    0.483          S_0
+    ----------------------------------------
+    Total                      3.811ns (2.201ns logic, 1.610ns route)
+                                       (57.8% logic, 42.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              4.040ns (Levels of Logic = 1)
+  Source:            c_out (FF)
+  Destination:       c_out (PAD)
+  Source Clock:      clk rising
+
+  Data Path: c_out to c_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.514   0.357  c_out (c_out_OBUF)
+     OBUF:I->O                 3.169          c_out_OBUF (c_out)
+    ----------------------------------------
+    Total                      4.040ns (3.683ns logic, 0.357ns route)
+                                       (91.2% logic, 8.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.10 secs
+ 

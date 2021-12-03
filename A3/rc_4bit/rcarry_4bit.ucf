@@ -1,0 +1,15 @@
+net "a[3]" loc ="R17";
+net "a[2]" loc ="N17";
+net "a[1]" loc = "L13";
+net "a[0]" loc = "L14";
+net "b[3]" loc = "K17";
+net "b[2]" loc = "K18";
+net "b[1]" loc = "H18";
+net "b[0]" loc = "G18";
+net "cin" loc = "H13";
+net "s[3]" loc ="F4";
+net "s[2]" loc ="P15";
+net "s[1]" loc ="E17";
+net "s[0]" loc ="K14";
+net "cout" loc ="R4";
+

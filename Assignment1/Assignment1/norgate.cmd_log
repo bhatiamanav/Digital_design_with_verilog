@@ -1,0 +1,3 @@
+vhdtdtfi -lib work /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/norgate.v -lang verilog -prj Assignment1 -o norgate.spl -module norgate -template /opt/Xilinx/13.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 norgate.spl /home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/norgate.sym 
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/norgate.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/Assignment1/Assignment1/norgate.syr" 

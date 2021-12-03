@@ -1,0 +1,4 @@
+net "d" loc ="R17";
+net "clk" loc ="N17";
+net "q" loc ="R4";
+net "q_c" loc ="F4";

@@ -1,0 +1,54 @@
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 21.690ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 321 / 17
+-------------------------------------------------------------------------
+Delay:               21.690ns (Levels of Logic = 18)
+  Source:            b<0> (PAD)
+  Destination:       cout (PAD)
+
+  Data Path: b<0> to cout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.106   0.532  b_0_IBUF (b_0_IBUF)
+     LUT3:I0->O            2   0.612   0.449  rc_1/FA1/cout1 (rc_1/carry<1>)
+     LUT3:I1->O            2   0.612   0.449  rc_1/FA2/cout1 (rc_1/carry<2>)
+     LUT3:I1->O            2   0.612   0.449  rc_1/FA3/cout1 (rc_1/carry<3>)
+     LUT3:I1->O            2   0.612   0.449  rc_1/FA4/cout1 (c1)
+     LUT3:I1->O            2   0.612   0.449  rc_2/FA1/cout1 (rc_2/carry<1>)
+     LUT3:I1->O            2   0.612   0.449  rc_2/FA2/cout1 (rc_2/carry<2>)
+     LUT3:I1->O            2   0.612   0.449  rc_2/FA3/cout1 (rc_2/carry<3>)
+     LUT3:I1->O            2   0.612   0.449  rc_2/FA4/cout1 (c2)
+     LUT3:I1->O            2   0.612   0.449  rc_3/FA1/cout1 (rc_3/carry<1>)
+     LUT3:I1->O            2   0.612   0.449  rc_3/FA2/cout1 (rc_3/carry<2>)
+     LUT3:I1->O            2   0.612   0.449  rc_3/FA3/cout1 (rc_3/carry<3>)
+     LUT3:I1->O            2   0.612   0.449  rc_3/FA4/cout1 (c3)
+     LUT3:I1->O            2   0.612   0.449  rc_4/FA1/cout1 (rc_4/carry<1>)
+     LUT3:I1->O            2   0.612   0.449  rc_4/FA2/cout1 (rc_4/carry<2>)
+     LUT3:I1->O            2   0.612   0.449  rc_4/FA3/cout1 (rc_4/carry<3>)
+     LUT3:I1->O            1   0.612   0.357  rc_4/FA4/cout1 (cout_OBUF)
+     OBUF:I->O                 3.169          cout_OBUF (cout)
+    ----------------------------------------
+    Total                     21.690ns (14.067ns logic, 7.623ns route)
+                                       (64.9% logic, 35.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.24 secs
+ 
+--> 

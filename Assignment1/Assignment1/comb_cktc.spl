@@ -1,0 +1,12 @@
+[Inputs]
+a
+b
+c
+d
+e
+[Outputs]
+y
+[BiDir]
+[ATTRIBUTES]
+VeriModel comb_cktc
+

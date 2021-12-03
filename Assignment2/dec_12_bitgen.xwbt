@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/susiejojo/Sems/Sem3/VLSID/Assignment2/dec_12.ncd
+OUTFILE=/home/susiejojo/Sems/Sem3/VLSID/Assignment2/dec_12.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=/home/susiejojo/Sems/Sem3/VLSID/Assignment2
+LICENSE=WebPack
+USER_INFO=211775849_0_0_472

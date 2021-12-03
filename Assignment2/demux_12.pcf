@@ -1,0 +1,11 @@
+//! **************************************************************************
+// Written by: Map O.87xd on Tue Oct 08 00:27:44 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "s" LOCATE = SITE "H13" LEVEL 1;
+COMP "y0" LOCATE = SITE "R4" LEVEL 1;
+COMP "y1" LOCATE = SITE "F4" LEVEL 1;
+COMP "d" LOCATE = SITE "R17" LEVEL 1;
+SCHEMATIC END;
+
